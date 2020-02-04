@@ -1,0 +1,6 @@
+<launch>
+  <node name="web_cam_subscriber" pkg="image_processor" type="web_cam_subscriber.py" output="screen">
+        <param name="px" value="320" />
+        <param name="py" value="240" />
+    </node>
+</launch>

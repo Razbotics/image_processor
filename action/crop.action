@@ -1,0 +1,10 @@
+#goal definition
+int32 crop_size
+---
+#result definition
+sensor_msgs/Image result_image
+---
+#feedback
+sensor_msgs/Image feedback_image
+int32 curr_width
+int32 curr_height

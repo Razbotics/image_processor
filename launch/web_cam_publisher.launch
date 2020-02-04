@@ -1,0 +1,6 @@
+<launch>
+  <node name="web_cam_publisher" pkg="image_processor" type="web_cam_publisher.py" output="screen">
+        <param name="res_width" value="100" />
+        <param name="res_height" value="100" />
+    </node>
+</launch>
